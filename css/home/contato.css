@@ -1,5 +1,8 @@
 .contato-bg {
-  background: url(../../img/contato.png);
+  background-image: url(../../img/contato.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   height: 383px;
   margin-top: 50px;
 }
