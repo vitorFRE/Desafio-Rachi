@@ -45,7 +45,7 @@
 }
 
 .plano-data {
-  font-family: Roboto;
+  font-family: inter;
   font-weight: bold;
   font-size: 1.625rem;
   color: #293145;
@@ -85,6 +85,10 @@
   background: #0f9afe;
   box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
   border-radius: 50px;
+}
+
+.planos-btn:hover {
+  background: #0071c3;
 }
 
 .prefe {

@@ -30,8 +30,8 @@
   gap: 65px;
   color: #6e7275;
 }
-.nav-menu ul li:hover {
-  color: #2e2e2e;
+.nav-menu-items a:hover {
+  color: black;
 }
 
 .btn-mobile {
@@ -47,6 +47,10 @@
     cursor: pointer;
     border: none;
     background: none;
+  }
+
+  .nav-menu-items a:hover {
+    color: white;
   }
 
   #hamburger {
@@ -89,12 +93,18 @@
     height: 100%;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     padding-top: 50px;
+    color: white;
+  }
+
+  .nav-menu ul a {
+    border-bottom: 1px solid #ffffff5e;
   }
 
   #nav.active .nav-menu-items {
     display: flex;
-    background-color: black;
+    background-color: #080705;
+    z-index: 999;
   }
 }

@@ -16,6 +16,12 @@
 }
 .app-text-img img {
   cursor: pointer;
+  transition: all 0.4s 0s ease;
+}
+
+.app-text-img img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .app {
@@ -26,4 +32,10 @@
 
 .app-img img {
   max-width: 100%;
+  transition: all 0.4s 0s ease;
+}
+
+.app-img img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,9 @@
         <div class="header container">
             <div class="header-logo">
                 <img src="./img/header-logo.svg" alt="Header-logo">
-                <h2>Rachi</h2>
+                <a href="/">
+                    <h2>Rachi</h2>
+                </a>
             </div>
             <nav id="nav" class="nav-menu">
                 <button id="btn-mobile" class="btn-mobile">
@@ -36,11 +39,11 @@
 
     <main class="intro-bg">
         <div class="intro container">
-            <div class="intro-text">
+            <div data-anime="500" class="intro-text fadeInLeft">
                 <h1>Rachi,<br>é tudo que você<br>precisa em um só lugar.</h1>
                 <button>Cadastrar-se</button>
             </div>
-            <div class="intro-img">
+            <div data-anime="1000" class="intro-img fadeInRight">
                 <img src="./img/intro-img.svg" alt="Trabalhe onde quiser">
             </div>
         </div>

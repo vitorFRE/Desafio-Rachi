@@ -53,3 +53,7 @@ input:focus {
   border: none;
   cursor: pointer;
 }
+
+.cont-btn:hover {
+  background: #0071c3;
+}
